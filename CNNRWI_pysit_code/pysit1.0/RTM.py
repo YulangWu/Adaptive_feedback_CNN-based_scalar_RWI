@@ -171,7 +171,7 @@ if __name__ == '__main__':
     parser.add_argument("--nt", type=int, default=4000, help="Number of time steps.")
     parser.add_argument("--dt", type=float, default=0.001, help="temperal increment.")
     parser.add_argument("--order", type=int, default=4, help="spatial order.")
-    parser.add_argument("--nshots", type=int, default=8, help="number of shots.")
+    parser.add_argument("--nshots", type=int, default=24, help="number of shots.")
     parser.add_argument("--izs", type=int, default=5, help="depth of source.")
     parser.add_argument("--izr", type=int, default=5, help="depth of receivers.")
     parser.add_argument("--f_max", type=int, default=20, help="peak frequency.")
