@@ -17,7 +17,7 @@
 num_threads=4  # Number of threads to obtain training RTM images in parallel
 iteration=0    # The starting iteration of the CNN-RFWI
 iter=50        # The total iteration number of the CNN-RFWI
-num_samples=16 # The number of training samples used for CNN training
+num_samples=24 # The number of training samples used for CNN training
 matlab_dir='matlab1.0/' # The directory to create training models by parcellation
 vel_dir='Marmousi/'     # The directory to store the predicted models
 pysit_dir='pysit1.0/'   # The directory to obtain RTM images on PySIT platform
